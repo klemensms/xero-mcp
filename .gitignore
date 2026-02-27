@@ -137,6 +137,10 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Xero OAuth tokens
+.xero-refresh-token
+.mcp.json
+
 # macOS
 .DS_Store
 
