@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "xero": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@xeroapi/xero-mcp-server@latest"
+      ],
+      "env": {
+        "XERO_CLIENT_ID": "7CB3F01D0F664B9FB95AAD9E78C74206",
+        "XERO_CLIENT_SECRET": "",
+        "XERO_CLIENT_BEARER_TOKEN": ""
+      }
+    },
+    "xero-local": {
+      "command": "node",
+      "args": [
+        "/Users/klemensstelk/Repo/piglet/xero/dist/index.js"
+      ],
+      "env": {
+        "XERO_CLIENT_ID": "7CB3F01D0F664B9FB95AAD9E78C74206",
+        "XERO_CLIENT_SECRET": "",
+        "XERO_CLIENT_BEARER_TOKEN": ""
+      }
+    }
+  }
+}
